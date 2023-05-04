@@ -1,11 +1,19 @@
-<main>
+<div class="container">
   <div class="row">
-    <app-product-description></app-product-description>
-  </div>
-  <div class="row">
-    <div class="col-sm-8">
-      <app-product-tracklisting></app-product-tracklisting>
+    <div class="col-md-6">
+      <img class="img-fluid" src="assets/images/products/shoes.jpg">
+    </div>
+    <div class="col-md-6">
+      <h2>Product Title</h2>
+      <h3>Product Price</h3>
+      <app-product-description></app-product-description>
     </div>
   </div>
-</main>
-<div></div><div></div><div></div><div></div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <h3>Related Products</h3>
+      <app-related-products></app-related-products>
+    </div>
+  </div>
+</div>
